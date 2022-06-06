@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Password Generator</title>
+    <link href="generator.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="navbar"><h1 class="navbar_text">Password Generator</h1></div>
+    <div class="all">
+      <div class="inputs">
+        <div>
+          <p>How Many Letters:</p>
+          <input type="text" name="let" id="let" class="text" />
+          <br />
+        </div>
+        <div>
+          <p>How Many Symbols:</p>
+          <input type="text" id="sym" class="text" />
+          <br />
+        </div>
+        <div>
+          <p>How Many Numbers:</p>
+          <input type="text" id="num" class="text" />
+          <br />
+        </div>
+        <input type="button" id="sub" value="Generate" class="gen" />
+      </div>
+      <div id="output">
+        <div id="field1">
+          <span>Generated Password</span>
+        </div>
+        <div id="field2"><h1 id="passwordG"></h1></div>
+      </div>
+    </div>
+    <script src="generator.js"></script>
+  </body>
+</html>

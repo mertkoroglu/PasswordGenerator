@@ -1,0 +1,84 @@
+* {
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(139, 139, 139);
+  height: 3em;
+  border-bottom: 3px solid black;
+}
+
+.navbar_text {
+  transform: translate(0, 50%);
+  font-size: x-large;
+}
+
+.all {
+  display: flex;
+  border: 1px solid black;
+  width: fit-content;
+  margin: 4em auto;
+  border-radius: 16px;
+}
+
+.inputs {
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: rgb(175, 175, 175);
+}
+
+.inputs div {
+  margin: 1em;
+}
+
+.inputs .text {
+  border-radius: 1em;
+  border: 2px solid grey;
+  outline: none;
+  padding-left: 1em;
+  height: 25px;
+}
+
+.inputs .gen {
+  font-weight: 600;
+  box-sizing: border-box;
+  margin: 1em;
+  border-radius: 12px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: rgb(150, 143, 184);
+  cursor: pointer;
+}
+
+.inputs .gen:hover {
+  border: 2px solid rgb(99, 99, 99);
+}
+
+#output {
+  margin-left: 1em;
+  border-radius: 16px;
+  height: fit-content;
+  width: fit-content;
+}
+
+#field1 {
+  border-bottom: 1px solid black;
+  padding: 1em;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#field2 {
+  padding: 1em;
+  border-radius: 0px 0px 16px 16px;
+  width: 15em;
+}
+
+#passwordG {
+  color: rgb(51, 51, 187);
+  font-size: x-large;
+}
